@@ -6,3 +6,15 @@
   position:fixed;
   top:0;
 }
+
+.header-left {
+  float:left;
+}
+
+.header-right {
+  float:right;
+}
+
+.clear {
+  clear:both;
+}
