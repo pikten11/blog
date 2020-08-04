@@ -1,1 +1,8 @@
 .header {
+  height:56px;
+  width:100%;
+  box-shadow:0 0 10px #dddddd;
+  background-color:black;
+  position:fixed;
+  top:0;
+}
