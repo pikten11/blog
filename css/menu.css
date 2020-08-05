@@ -1,13 +1,38 @@
-.addon {
-  height:200px;
-  width:100px;
-  float:left;
-  border:1px solid #e8e8e8;
-  margin:;
+@charset "utf-8";
+
+.menu {
+  padding:90px 0 60px;
+  color:#5a5c5f;
 }
 
-.addon img {
-  height:150px;
-  width:50px;
+.menu-card {
+  width:33%;
+  margin-top:35px;
 }
-  
+
+.menu-card-inner {
+  padding:25px 30px;
+  background-color:#dbe0e4;
+  border-radius:7px;
+  box-shadow:1px 1px 4px #d2d4d6;
+  text-align:center;
+}
+
+.menu-image {
+  width:100%;
+  margin-bottom:20px;
+  border-radius:5px;
+}
+
+.menu-title {
+  margin-bottom:8px;
+}
+
+.menu-card-inner p {
+  font-size:14px;
+}
+
+.menu-card-wrapper {
+  display:flex;
+  flex-wrap:wrap;
+}
