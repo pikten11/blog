@@ -37,3 +37,27 @@
   flex-wrap:wrap;
   margin:0 20px;
 }
+
+.twitter-card-inner {
+  padding:25px 30px;
+  background-color:#7adcff;
+  border-radius:7px;
+  box-shadow:1px 1px 4px #d2d4d6;
+  text-align:center;
+}
+
+.youtube-card-inner {
+  padding:25px 30px;
+  background-color:#ff4a4a;
+  border-radius:7px;
+  box-shadow:1px 1px 4px #d2d4d6;
+  text-align:center;
+}
+
+.discord-card-inner {
+  padding:25px 30px;
+  background-color:#7581ff;
+  border-radius:7px;
+  box-shadow:1px 1px 4px #d2d4d6;
+  text-align:center;
+}
