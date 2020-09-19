@@ -1,5 +1,5 @@
 function footer(){
-  var html = "";
+	var html = "";
 	html += '<div class="footer">';
 	html += '<div class="container">';
 	html += '<div class="footer-right">';
