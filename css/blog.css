@@ -1,1 +1,8 @@
-@charset "utf-8"
+@charset "utf-8";
+.blog{
+  margin:0 20px;
+  padding:20px;
+}
+.blog-left{
+  float:left;
+ }
