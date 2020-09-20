@@ -2,7 +2,14 @@
 .blog{
   margin:0 20px;
   padding:20px;
+  border:1px solid dbe0e4;
 }
 .blog-left{
   float:left;
- }
+}
+.blog-right{
+  float:right;
+}
+.clear{
+  clear:both;
+}
