@@ -10,7 +10,7 @@
   float:left;
 }
 .blog-right{
-  float:center;
+  float:auto;
 }
 .clear{
   clear:both;
