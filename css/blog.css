@@ -1,5 +1,15 @@
 @charset "utf-8";
 .blog{
+  position:relative;
+}
+.blog a{
+  position: absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+}
+.blog{
   margin:20px;
   padding:20px;
   border:1px solid #dbe0e4;
