@@ -10,6 +10,7 @@
   float:left;
 }
 .blog-right{
+  padding:20px;
   float:auto;
 }
 .clear{
@@ -19,4 +20,7 @@
   width:100%;
   margin-bottom:20px;
   border-radius:5px;
+}
+.border-right h2{
+  opacity:0.8;
 }
