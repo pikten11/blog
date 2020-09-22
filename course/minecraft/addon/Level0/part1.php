@@ -26,6 +26,31 @@ function get_count($file) {
 	  <link rel="stylesheet" href="https://pikten11.github.io/blog/css/menu.css">
     <!--タイトル-->
 	  <title>講座ーアドオンーLevel0</title>
+	  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	  <script>
+		  $(function() {
+			  allowAjax = true;
+			  $('.btn_vote').click(function() {
+				  if (allowAjax) {
+					  allowAjax = false;
+					  $(this).toggleClass('on');
+					  var id = $(this).attr('id');
+					  $(this).hasClass('on') ? Vote(id, 'plus') : Vote(id, 'minus');
+				  }
+			  });
+		  });
+		  function Vote(id, plus) {
+			  cls = $('.' + id);
+			  cls_num = Number(cls.html());
+			  count = plus == 'minus' ? cls_num - 1 : cls_num + 1;
+			  $.post('vote.php', {'file': id, 'count': count}, function(data) {
+				  if (data == 'success') cls.html(count);
+				  setTimeout(function() {
+					  allowAjax = true;
+				  }, 1000);
+			  });
+		  }
+	  </script>
 	</head>
 	<body>
 		<script type="text/javascript" src="https://pikten11.github.io/blog/js/header.js"></script>
@@ -74,6 +99,8 @@ function get_count($file) {
 					最後に、質問や誤字・脱字などがみつかった場合は、TwitterのDMにお願いします。<br>
 					それではまた～
 				</p>
+				<p class="ico_heart vote_01"><?= get_count('vote_01') ?></p>
+				<p class="btn_vote" id="vote_01"></p>
 			</div>
 		</div>
 		<script type="text/javascript" src="https://pikten11.github.io/blog/js/footer.js"></script>
