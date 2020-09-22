@@ -65,3 +65,14 @@
 .menu-card a {
   position: absolute;
 }
+
+.twitter-card-inner,.youtube-card-inner,.discord-card-inner{
+  position:relative;
+}
+.blog a{
+  position: absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+}
