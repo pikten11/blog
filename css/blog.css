@@ -50,10 +50,10 @@
 h2,h3,h4{
   margin-top:10px;
 }
-table-of-contents{
+.table-of-contents{
   border:1px solid #e1bfff;
   background-color:#f8f0ff;
 }
-table-of-contents span{
+.table-of-contents span{
   text-align:left;
 }
