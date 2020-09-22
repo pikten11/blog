@@ -43,3 +43,10 @@
   border-left:10px solid #dbe0e4;
   border-bottom:3px solid #dbe0e4;
 }
+.course-subtitle{
+  border-left:7px dotted #dbe0e4;
+  border-bottom:2px dotted #dbe0e4;
+}
+h2,h3{
+  margin-top:10px;
+}
