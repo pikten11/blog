@@ -28,7 +28,7 @@
 					var searchText = $(this).val(), // 検索ボックスに入力された値
 					    targetText;
 					
-					$('.target-area h2').each(function() {
+					$('.target-area div').each(function() {
 						targetText = $(this).text();
 // 検索対象となるリストに入力された文字列が存在するかどうかを判断
 						if (targetText.indexOf(searchText) != -1) {
@@ -57,11 +57,16 @@
 					</div>
 				</div>
 				<div class="target-area">
-					<h2>pvpに役立つ!</h2>
-					<h2>ばなな100円</h2>
-					<h2>みかん150円</h2>
-					<h2>いちご220円</h2>
-					<h2>すいか500円</h2>
+					<ul class="scroll">
+						<li>
+							<img src="">
+							<div>pvpに役立つ!</div>
+						</li>
+						<li>ばなな100円</li>
+						<li>みかん150円</h2>
+						<li>いちご220円</li>
+						<li>すいか500円</li>
+					</div>
 				</div>
 			</div>
 		</div>
