@@ -40,12 +40,11 @@
   text-align:center;
 }
 .course-title{
-  border-left:10px solid #dbe0e4;
-  border-bottom:3px solid #dbe0e4;
+  border:10px outset #e1bfff;
 }
 .course-subtitle{
-  border-left:7px dotted #e1bfff;
-  border-bottom:2px dotted #e1bfff;
+  border-left:10px solid #e1bfff;
+  border-bottom:5px solid #e1bfff;
 }
 h2,h3,h4{
   margin-top:10px;
