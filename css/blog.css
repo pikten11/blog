@@ -15,7 +15,7 @@
   border:1px solid #dbe0e4;
   border-radius:10px;
   box-shadow:1px 1px 4px #ede8dd;
-  z-index:1;
+  z-index:0;
 }
 .blog-left{
   margin-top:20px;
