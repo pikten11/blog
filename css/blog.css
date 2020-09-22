@@ -55,8 +55,8 @@ h2,h3,h4{
 p{
   font-family:serif;
 }
-h3 .blog-img {
-  width:50%;
+p .blog-img {
+  width:100%;
 }
 .table-of-contents{
   border:1px solid #e1bfff;
