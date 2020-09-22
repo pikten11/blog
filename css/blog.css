@@ -48,6 +48,10 @@
 }
 h2,h3,h4{
   margin-top:10px;
+  font-family:sans-serif;
+}
+p{
+  font-family:serif;
 }
 .table-of-contents{
   border:1px solid #e1bfff;
