@@ -61,3 +61,37 @@ p{
 .table-of-contents a{
   text-align:right;
 }
+
+.scroll {
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  padding: 0 0 12px 8px;
+  display: -ms-flexbox;
+  display: flex; }
+
+/* 画面幅が768px以上の場合、横スクロールを解除 */
+@media screen and (min-width: 768px) {
+  .scroll {
+    overflow-x: inherit;
+    padding: 0 8px 6px; } }
+
+.scroll > li {
+  width: 100%;
+  min-width: 140px; }
+
+@media screen and (min-width: 768px) {
+  .scroll > li {
+    min-width: inherit; } }
+
+.scroll > li:not(:last-child) {
+  margin-right: 5px; }
+
+.scroll > li:last-child {
+  padding-right: 5px; }
+
+@media screen and (min-width: 768px) {
+  .scroll > li:last-child {
+    padding-right: 0; } }
+
+.scroll img {
+  vertical-align: bottom; }
