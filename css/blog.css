@@ -49,6 +49,7 @@
 h2,h3,h4{
   margin-top:10px;
   font-family:sans-serif;
+  text-alien:left;
 }
 p{
   font-family:serif;
@@ -57,6 +58,6 @@ p{
   border:1px solid #e1bfff;
   background-color:#f8f0ff;
 }
-.table-of-contents span{
-  text-align:left;
+.table-of-contents a{
+  text-align:right;
 }
