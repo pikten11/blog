@@ -61,6 +61,5 @@ p .blog-img {
   /* 見た目調整 */
   height: 400px;
   margin: 16px;
-  font-size: 48px;
-  background: rgba(255, 0, 0, 0.4);
+  font-size: 36px;
 }
