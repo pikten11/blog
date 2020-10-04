@@ -23,11 +23,11 @@
   text-align:center;
 }
 .course-title{
-  border:10px outset #e1bfff;
+  border-left:10px solid #8cddff;
+  border-bottom:2px outside #e3e3e3;
 }
 .course-subtitle{
-  border-left:10px solid #e1bfff;
-  border-bottom:5px solid #e1bfff;
+  border-left:10px solid #8cddff;
 }
 h2,h3,h4{
   margin-top:10px;
